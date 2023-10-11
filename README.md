@@ -29,7 +29,7 @@ API: Telegram 봇 API 사용 <br>
 
 ## 프로젝트 구조
 
-기능별로 파일을 나눠서 구성해봤다. <br>
+기능별로 파일을 나눠서 구성했다. <br>
 
 - scraper.py: 크롤링 + 데이터 가공
 - telegram_bot.py: API 요청
