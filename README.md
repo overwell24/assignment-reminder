@@ -1,6 +1,9 @@
-![telegram](https://github.com/overwell24/assignment-reminder/assets/129687688/d7b8e452-7a1d-4209-8bc1-705b4b80747d)
 # 어쩔 과제 저쩔 학점
-해야할 과제를 알려준다.
+<img src="https://github.com/overwell24/assignment-reminder/assets/129687688/d7b8e452-7a1d-4209-8bc1-705b4b80747d" width="40%" height="30%" >
+<br>
+
+## 프로젝트 소개
+해야할 과제를 텔레그램을 통해 알려준다.
 
 ## 만든 이유
 추석 연휴기간 동안 과제 놓쳐서 만듦
