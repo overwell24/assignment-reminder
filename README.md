@@ -1,12 +1,16 @@
 # 어쩔 과제 저쩔 학점
-<img src="https://github.com/overwell24/assignment-reminder/assets/129687688/d7b8e452-7a1d-4209-8bc1-705b4b80747d" width="40%" height="30%" >
+인하공전 과제 알림이
+
+## 프로젝트 작동화면
+<img src="https://github.com/overwell24/assignment-reminder/assets/129687688/d7b8e452-7a1d-4209-8bc1-705b4b80747d" width="40%" height="40%" >
 <br>
 
 ## 프로젝트 소개
 해야할 과제를 텔레그램을 통해 알려준다.
 
 ## 만든 이유
-추석 연휴기간 동안 과제 놓쳐서 만듦
+추석 연휴기간 동안 과제 놓쳐서 만듦 <br>
+~~이거 만들다가 학교 못감 아 내 학점~~
 
 ## 사용 기술
 프로그래밍 언어: `Python` <br>
