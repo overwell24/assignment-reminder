@@ -98,3 +98,44 @@ driver.find_element(By.LINK_TEXT, "")
 driver.find_element(By.PARTIAL_LINK_TEXT, "")
 # 복수형 find_elements
 ```
+
+### 텔레그램 API 사용법
+
+1. 봇 생성: BotFather 검색 후 봇 생성
+
+2. 봇 등록: 그룹 or 채널 생성 후 만든 bot 초대해서 admin 등록
+
+3. chat_id 얻기: (봇 생성때 얻은 토큰)
+
+   ```
+   https://api.telegram.org/bot{{token}}/getUpdates
+   ```
+
+4. 테스트
+
+   ```python
+   import requests
+
+   # 메시지 보내기
+   API_TOKEN = "YOUR_BOT_TOKEN_HERE"
+   chat_id = "YOUR_CHAT_ID_HERE"
+
+   # 텔레그램 API URL
+   send_message_url = f"https://api.telegram.org/bot{API_TOKEN}/sendMessage"
+
+   # 메시지 파라미터
+   message_params = {
+       'chat_id': chat_id,
+       'text': '안녕하세요! 이것은 텔레그램 봇 메시지입니다.',
+   }
+
+   # 메시지 전송
+   response = requests.get(send_message_url, params=message_params)
+
+   # 응답 확인
+   if response.status_code == 200:
+       print("메시지가 성공적으로 전송되었습니다.")
+   else:
+       print("메시지 전송 실패:", response.text)
+
+   ```
