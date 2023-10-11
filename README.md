@@ -102,9 +102,7 @@ driver.find_element(By.PARTIAL_LINK_TEXT, "")
 ### 텔레그램 API 사용법
 
 1. 봇 생성: BotFather 검색 후 봇 생성
-
 2. 봇 등록: 그룹 or 채널 생성 후 만든 bot 초대해서 admin 등록
-
 3. chat_id 얻기: (봇 생성때 얻은 토큰)
 
    ```
@@ -139,3 +137,38 @@ driver.find_element(By.PARTIAL_LINK_TEXT, "")
        print("메시지 전송 실패:", response.text)
 
    ```
+
+### python 클래스 메소드 인스턴스 메소드
+
+클래스 메소드 (Class Method)
+
+- 정의 방법: @classmethod 데코레이터를 사용하여 정의한다.
+- 매개변수: 첫 번째 매개변수로 `cls` (클래스 자체)를 받는다.
+- 호출 방법: 클래스 메소드는 클래스 이름을 사용하여 호출한다.
+- 접근 범위: 클래스 레벨 데이터에 접근 가능, 인스턴스 레벨의 데이터 불가능
+
+```python
+class MyClass:
+    class_variable = 0
+
+    @classmethod
+    def my_class_method(cls):
+        cls.class_variable += 1
+```
+
+인스턴스 메소드 (Instance Method)
+
+- 정의 방법: 인스턴스 메소드는 일반적인 메소드, 데코레이터를 사용하지 않고 정의한다.
+- 매개변수: 첫 번째 매개변수로 `self`를 받는다.
+- 호출 방법: 인스턴스 메소드는 해당 클래스의 인스턴스를 사용하여 호출한다.
+- 접근 범위: 인스턴스 메소드는 해당 인스턴스의 데이터와 클래스 변수에 모두 접근 가능
+- 용도: 해당 인스턴스의 상태를 조작하거나 인스턴스 수준의 작업을 수행
+
+```python
+class MyClass:
+    def __init__(self, value):
+        self.instance_variable = value
+
+    def my_instance_method(self):
+        self.instance_variable += 1
+```
