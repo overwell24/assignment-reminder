@@ -32,7 +32,7 @@ API: Telegram 봇 API 사용 <br>
 - telegram_bot.py: API 요청
 - main.py: 실행 로직
 - config.py: 토큰, 계정 정보 분리 저장
-- 
+  
 ## 프로젝트 작동화면
 
 <img src="https://github.com/overwell24/assignment-reminder/assets/129687688/d7b8e452-7a1d-4209-8bc1-705b4b80747d" width="40%" height="40%" >
