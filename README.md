@@ -2,10 +2,9 @@
 
 인하공전 과제 알림이
 
-## 프로젝트 작동화면
+## 개발 기간
 
-<img src="https://github.com/overwell24/assignment-reminder/assets/129687688/d7b8e452-7a1d-4209-8bc1-705b4b80747d" width="40%" height="40%" >
-<br>
+2023.10.10 ~ 2023.10.11
 
 ## 프로젝트 소개
 
@@ -23,9 +22,7 @@
 API: Telegram 봇 API 사용 <br>
 작업 스케줄링: 리눅스 `crontab`을 사용하여 정기적인 스크립트 실행<br>
 
-## 개발 기간
 
-2023.10.10 ~ 2023.10.11
 
 ## 프로젝트 구조
 
@@ -35,6 +32,11 @@ API: Telegram 봇 API 사용 <br>
 - telegram_bot.py: API 요청
 - main.py: 실행 로직
 - config.py: 토큰, 계정 정보 분리 저장
+- 
+## 프로젝트 작동화면
+
+<img src="https://github.com/overwell24/assignment-reminder/assets/129687688/d7b8e452-7a1d-4209-8bc1-705b4b80747d" width="40%" height="40%" >
+<br>
 
 ## 프로젝트 실행 가이드
 
